@@ -32,14 +32,10 @@ const News = (props) => {
         props.setProgress(100);
     } catch (error) {
         console.error('Error fetching data:', error);
-        // Handle the 426 status code specifically
-        if (error.message.includes('Status: 426')) {
-            // Display a message or perform actions for handling upgrade required
-            alert('Upgrade Required: Please switch to a secure connection (HTTPS) or check for API updates.');
-        }
         setLoading(false);
     }
 };
+
 
     useEffect(() => {
         document.title= `${capitalizeFirstLetter(props.category)} - Newsie`;
