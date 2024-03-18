@@ -15,27 +15,18 @@ const News = (props) => {
     }
 
     const updateNews = async () => {
-    props.setProgress(20);
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
-    setLoading(true);
-    try {
-        let response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
+        props.setProgress(20);
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
+        setLoading(true)
+        let data = await fetch(url);
         props.setProgress(50);
-        let parsedData = await response.json();
+        let parsedData = await data.json()
         props.setProgress(70);
-        setArticles(parsedData.articles);
-        setTotalResults(parsedData.totalResults);
-        setLoading(false);
+        setArticles(parsedData.articles)
+        setTotalResults(parsedData.totalResults)
+        setLoading(false)
         props.setProgress(100);
-    } catch (error) {
-        console.error('Error fetching data:', error);
-        setLoading(false);
     }
-};
-
 
     useEffect(() => {
         document.title= `${capitalizeFirstLetter(props.category)} - Newsie`;
