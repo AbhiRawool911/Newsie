@@ -19,12 +19,12 @@ const News = (props) => {
     const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
     setLoading(true);
     try {
-        let data = await fetch(url);
-        if (!data.ok) {
-            throw new Error(`HTTP error! Status: ${data.status}`);
+        let response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
         }
         props.setProgress(50);
-        let parsedData = await data.json();
+        let parsedData = await response.json();
         props.setProgress(70);
         setArticles(parsedData.articles);
         setTotalResults(parsedData.totalResults);
@@ -32,10 +32,14 @@ const News = (props) => {
         props.setProgress(100);
     } catch (error) {
         console.error('Error fetching data:', error);
+        // Handle the 426 status code specifically
+        if (error.message.includes('Status: 426')) {
+            // Display a message or perform actions for handling upgrade required
+            alert('Upgrade Required: Please switch to a secure connection (HTTPS) or check for API updates.');
+        }
         setLoading(false);
     }
-}
-
+};
 
     useEffect(() => {
         document.title= `${capitalizeFirstLetter(props.category)} - Newsie`;
