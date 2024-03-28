@@ -24,25 +24,21 @@ Newsie is a React.js-based news website integrated with the News API, offering a
 
 ## Screenshots
 
-### Homepage:
-The homepage is the gateway to a curated selection of top news articles across different categories. It offers users a quick glimpse into the latest and most relevant news stories.
+- **Homepage**: The homepage is the gateway to a curated selection of top news articles across different categories. It offers users a quick glimpse into the latest and most relevant news stories.
 
-![Homepage](https://github.com/AbhiRawool911/Newsie/assets/157002044/3295f2e2-439e-4321-a01c-5be79b2ed767)
+  ![Homepage](https://github.com/AbhiRawool911/Newsie/assets/157002044/3295f2e2-439e-4321-a01c-5be79b2ed767)&nbsp;
 
-### Footer:
-The footer section is not just a navigational element but also a part of our brand identity. It features the Newsie logo, tagline, and a brief description, providing essential information about the website and reinforcing our brand message.
+- **Footer**: The footer section is not just a navigational element but also a part of our brand identity. It features the Newsie logo, tagline, and a brief description, providing essential information about the website and reinforcing our brand message.
 
-![Footer](https://github.com/AbhiRawool911/Newsie/assets/157002044/9b12cf45-211e-46c0-87c2-ab9124922033)
+  ![Footer](https://github.com/AbhiRawool911/Newsie/assets/157002044/9b12cf45-211e-46c0-87c2-ab9124922033)&nbsp;
 
-### Spinner (Loading Content):
-The spinner animation and red top loader bar are essential UI elements that provide visual feedback to users when content is being loaded. They enhance the user experience by indicating that the website is actively fetching data.
+- **Spinner (Loading Content)**: The spinner animation and red top loader bar are essential UI elements that provide visual feedback to users when content is being loaded. They enhance the user experience by indicating that the website is actively fetching data.
 
-![Spinner](https://github.com/AbhiRawool911/Newsie/assets/157002044/aae5194c-11fc-4d35-b27b-b84ced9af108)
+  ![Spinner](https://github.com/AbhiRawool911/Newsie/assets/157002044/aae5194c-11fc-4d35-b27b-b84ced9af108)&nbsp;
 
-### News Category-wise:
-Our news categories are carefully curated to cater to a wide range of interests. Users can explore specific categories like Entertainment, General, Health, Science, Sports, Business, and Technology, allowing them to find relevant articles easily and stay informed about topics they care about.
+- **News Category-wise**: Our news categories are carefully curated to cater to a wide range of interests. Users can explore specific categories like Entertainment, General, Health, Science, Sports, Business, and Technology, allowing them to find relevant articles easily and stay informed about topics they care about.
 
-![Technology News](https://github.com/AbhiRawool911/Newsie/assets/157002044/aa412043-501e-4a89-9d49-e5c35f681da7)
+  ![Technology News](https://github.com/AbhiRawool911/Newsie/assets/157002044/aa412043-501e-4a89-9d49-e5c35f681da7)&nbsp;
 
 ## Installation
 
