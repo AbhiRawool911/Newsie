@@ -1,7 +1,7 @@
 # Newsie - Top News Headlines
 
 <p align="center">
-  <img src="https://github.com/AbhiRawool911/Newsie/assets/157002044/dd51f7a3-35ca-4faf-b7c6-458482959039" alt="Newsie Logo">
+  <img src="https://github.com/AbhiRawool911/Newsie/assets/157002044/dd51f7a3-35ca-4faf-b7c6-458482959039" alt="Newsie Logo" width="500" height="200">
 </p>
 
 Newsie is a React.js-based news website integrated with the News API, offering a dynamic and user-friendly platform for accessing the latest news across various categories. Leveraging React's component-based architecture, the website ensures seamless navigation and responsiveness across devices. By utilizing the News API, the website fetches news updates, providing users with a diverse range of articles from reputable sources. With an intuitive design and efficient data retrieval, this news website delivers a compelling user experience, keeping visitors informed and engaged with current events.
