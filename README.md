@@ -1,4 +1,4 @@
-# Newsie - Your Window to the World's Story
+# Newsie - Top News Headlines
 
 <p align="center">
   <img src="https://github.com/AbhiRawool911/Newsie/assets/157002044/dd51f7a3-35ca-4faf-b7c6-458482959039" alt="Newsie Logo">
